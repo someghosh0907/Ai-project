@@ -1,0 +1,2 @@
+This is a Vyrazu Labs demo data text file. Vyrazu labs has total of 50 employees and its office is located at Salt Lake Sector-V. This is Pvt Ltd company 
+which specialises in building web, mobile applications on a scale and also provides consultancy services to clients. Its owners are Anand Singh And VAsu Naman.

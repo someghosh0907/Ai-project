@@ -1,0 +1,27 @@
+how to write a restapi in django to send prompts in llama3 using langchain.
+async method of getting the response data and then returning it.
+Conversations with Memory 
+https://www.youtube.com/watch?v=XWB5DXP-DO8
+https://www.youtube.com/watch?v=7VAs22LC7WE&t=37s
+https://medium.com/@vinayakdeshpande111/how-to-make-llm-remember-conversation-with-langchain-924083079d95
+
+example_selector = SemanticSimilarityExampleSelector.from_examples(
+    # The list of examples available to select from.
+    examples,
+    # The embedding class used to produce embeddings which are used to measure semantic similarity.
+    OpenAIEmbeddings(),
+    # The VectorStore class that is used to store the embeddings and do a similarity search over.
+    Chroma,
+    # The number of examples to produce.
+    k=1,
+)
+SEMANTIC SEARCH LANGCHAIN (uploads a certain data into the vector store and will only show the relevant data and similar data that it fetched from  that it
+private gpt.
+Prompt output in form of streams of data. #FrontEnd Task.
+File format to insert is .txt ,.pdf to store in the local storage.
+Documents can be either used immediately or indexed into a vectorstore for future retrieval and use (https://python.langchain.com/v0.1/docs/modules/data_connection/document_loaders/custom/)
+After pushing any file in local store break them into chunks and keep them in vector store.
+When we will call the api we will keep the vector store on the top and after that we can do the conventioinal llm call.
+
+
+
